@@ -1,86 +1,99 @@
-<div align="center">
-  <h1 align="center">Hi there, I'm Saurav Pandit! 👋</h1>
-  <p align="center">
-    <strong>A passionate Full Stack Web Developer & Software Engineer</strong>
-  </p>
-  
-  <p align="center">
-    <a href="https://github.com/Saurav-Pandit2005"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="https://www.linkedin.com/in/saurav-pandit"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:sauravpandit9691@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://instagram.com/srv__2.0"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  </p>
-</div>
+# Saurav Pandit - Portfolio Website
 
-<br />
-
-<!-- SCREENSHOT PREVIEW -->
-<div align="center">
-  <!-- TODO: Aap apni website ka ek real screenshot leke idhar link replace kar sakte ho -->
-  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1000&q=80" alt="Portfolio Preview" style="border-radius: 12px; width: 100%; max-width: 800px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-  <p><em>Modern, responsive, and glassmorphism-inspired portfolio built with React & Tailwind CSS.</em></p>
-</div>
+A modern, responsive developer portfolio built with React, Vite, and Tailwind CSS showcasing Full-Stack Web Development, projects, and technical skills. Features smooth animations, glassmorphism UI, and optimized performance.
 
 ---
 
-## 🚀 About This Project
+## ✨ Features
 
-This is my personal portfolio website designed to showcase my projects, skills, and technical journey. It is fully responsive, featuring a premium dark-themed glassmorphism UI, smooth animations, and optimized performance.
-
-### ✨ Key Features
-- **Modern UI/UX:** Dark theme with sleek glassmorphism and gradient styling.
-- **Responsive Design:** Looks great on mobile, tablet, and desktop devices.
-- **Smooth Animations:** Powered by `framer-motion` and `gsap` for seamless transitions.
-- **Dynamic Content:** Easy to update projects and skills via a central data configuration.
-
----
-
-## 🛠️ Tech Stack & Tools
-
-**Frontend & Styling:**
-- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) 
-- ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white) 
-- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white) 
-
-**Backend & Databases:**
-- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white) 
-- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat&logo=express&logoColor=%2361DAFB)
-- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white)
-
-**Programming Languages:**
-- ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
-- ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+- **Modern UI** – Dark theme with glassmorphism and gradient styling
+- **Responsive Design** – Optimized for mobile, tablet, and desktop
+- **Smooth Animations** – Powered by Framer Motion and GSAP
+- **Interactive Sections** – About, Skills, Projects, and Contact
+- **Performance Optimized** – Fast loading and clean architecture
+- **Accessible Design** – Semantic HTML and keyboard-friendly navigation
 
 ---
 
-## 💻 Local Setup & Installation
+## 👩‍💻 About Me
 
-To run this project locally on your machine, follow these steps:
+Hi, I'm **Saurav Pandit**, a **Full Stack Web Developer** passionate about building scalable web applications and intuitive user interfaces.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Saurav-Pandit2005/Saurav-Portfolio.git
-   cd Saurav-Portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open in browser**  
-   Navigate to `http://localhost:5173`
+My interests include:
+- Full-Stack Development
+- Frontend Engineering
+- Backend Architecture
+- Data Structures & Algorithms
 
 ---
 
-<div align="center">
-  <b>Built with ❤️ by Saurav Pandit</b>
-  <br><br>
-  <i>If you like this project, feel free to give it a ⭐!</i>
-</div>
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- Tailwind CSS
+
+### Backend & Database
+- Node.js
+- Express.js
+- MongoDB
+
+### Programming Languages
+- Java
+- JavaScript
+- Python
+
+---
+
+## 📦 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Saurav-Pandit2005/Saurav-Portfolio.git
+```
+
+### Navigate to Project
+
+```bash
+cd Saurav-Portfolio
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📬 Contact
+
+📧 Email: sauravpandit9691@gmail.com
+
+🔗 LinkedIn:  
+https://www.linkedin.com/in/saurav-pandit
+
+💻 GitHub:  
+https://github.com/Saurav-Pandit2005
+
+📸 Instagram:  
+https://instagram.com/srv__2.0
+
+---
+
+⭐ If you like this portfolio, consider giving the repository a star!
