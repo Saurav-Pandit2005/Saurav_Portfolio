@@ -301,7 +301,7 @@ const Contact = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-center text-green-400 text-sm"
                   >
-                    ✅ Thanks for reaching out! I'll get back to you soon.
+                    Thanks for reaching out! I'll get back to you soon.
                   </motion.p>
                 )}
 
@@ -311,7 +311,7 @@ const Contact = () => {
                     animate={{ opacity: 1, y: 0 }}
                     className="text-center text-red-400 text-sm"
                   >
-                    ❌ Something went wrong. Please try again or email me directly.
+                    Something went wrong. Please try again or email me directly.
                   </motion.p>
                 )}
               </form>
