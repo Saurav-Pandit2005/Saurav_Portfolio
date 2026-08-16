@@ -6,7 +6,7 @@
 
 ---
 
-## ⚡ Overview
+## Overview
 
 This portfolio is designed to be minimal yet expressive, focusing on smooth user experiences, glassmorphism UI, and optimized performance. It serves as a central hub for my projects, skills, and professional journey.
 
@@ -18,13 +18,13 @@ This portfolio is designed to be minimal yet expressive, focusing on smooth user
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 Hi, I'm **Saurav Pandit**. I am a passionate **Full Stack Web Developer** who loves solving problems and building scalable web applications. When I'm not writing code for modern UIs, I'm usually grinding Data Structures and Algorithms or learning about Backend Architectures.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 Here are the technologies I work with:
 
@@ -46,7 +46,7 @@ Here are the technologies I work with:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally on your machine, follow these steps:
 
@@ -74,7 +74,7 @@ The application will be running at `http://localhost:5173`.
 
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 Feel free to reach out if you want to collaborate on a project or just say hi!
 
@@ -84,4 +84,3 @@ Feel free to reach out if you want to collaborate on a project or just say hi!
 - **Instagram:** [@srv__2.0](https://instagram.com/srv__2.0)
 
 ---
-*If you liked this project, please consider giving it a ⭐ on GitHub!*
