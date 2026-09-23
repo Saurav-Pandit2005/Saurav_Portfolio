@@ -35,17 +35,17 @@ export const aboutData = {
   ],
 
   stats: [
-    { label: 'DSA Problems', value: '60+', link: 'https://leetcode.com/u/spandit2005/' },
+    { label: 'DSA Problems', value: '180+', link: 'https://leetcode.com/u/spandit2005/' },
     { label: 'Projects Built', value: '3+', link: 'https://github.com/Saurav-Pandit2005' },
     { label: 'Certifications', value: '10+', link: 'https://github.com/Saurav-Pandit2005/Certifications' },
-    { label: 'CGPA', value: '8.57' },
+    { label: 'CGPA', value: '8.58' },
   ],
 
   timeline: [
     {
       year: '2024 - Present',
       title: 'Computer Engineering Student',
-      company: 'RK University — 8.57 (CGPA)',
+      company: 'RK University — 8.58 (CGPA)',
     },
     {
       year: '2023 - 2024',
