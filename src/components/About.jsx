@@ -94,11 +94,21 @@ const About = () => {
             <motion.div variants={itemVariants} className="space-y-8">
               {/* Avatar and Location */}
               <div className="flex flex-col sm:flex-row items-start gap-6">
-                <div className="relative">
-                  <div className="w-28 h-28 rounded-2xl bg-gradient-to-br from-accent to-secondary p-[2px]">
-                    <div className="w-full h-full rounded-2xl bg-background flex items-center justify-center overflow-hidden">
+                <div className="relative flex-shrink-0">
+                  {/* soft glow behind photo */}
+                  <div className="absolute -inset-2 rounded-3xl bg-gradient-to-br from-accent/30 to-secondary/30 blur-xl opacity-60" aria-hidden="true" />
+                  <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-2xl bg-gradient-to-br from-accent to-secondary p-[3px] shadow-lg shadow-accent/20">
+                    <div className="w-full h-full rounded-[13px] bg-background flex items-center justify-center overflow-hidden">
                       {personalInfo.avatar ? (
-                        <img src={personalInfo.avatar} alt={personalInfo.name} className="w-full h-full rounded-2xl object-cover object-center" />
+                        <img
+                          src={personalInfo.avatar}
+                          alt={personalInfo.name}
+                          width="192"
+                          height="192"
+                          decoding="async"
+                          className="w-full h-full object-cover"
+                          style={{ objectPosition: '50% 25%' }}
+                        />
                       ) : (
                         <span className="font-heading text-3xl font-bold gradient-text">
                           {personalInfo.name.split(' ').map(n => n[0]).join('')}

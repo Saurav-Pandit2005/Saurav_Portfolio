@@ -19,7 +19,7 @@ const ProjectCard = ({ project, index, isInView }) => {
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent opacity-60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent opacity-40" />
 
         <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
           <motion.a
@@ -65,7 +65,7 @@ const ProjectCard = ({ project, index, isInView }) => {
           />
         </h3>
 
-        <p className="text-textSecondary text-sm leading-relaxed mb-4 line-clamp-3">
+        <p className="text-textSecondary text-sm leading-relaxed mb-4 line-clamp-4">
           {project.description}
         </p>
 
@@ -132,7 +132,7 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {projectsData.map((project, index) => (
             <ProjectCard
               key={project.id}

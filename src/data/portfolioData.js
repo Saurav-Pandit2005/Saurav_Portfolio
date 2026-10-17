@@ -22,10 +22,9 @@ export const personalInfo = {
   email: 'sauravpandit9691@gmail.com',
   github: 'https://github.com/Saurav-Pandit2005',
   linkedin: 'https://www.linkedin.com/in/saurav2005',
-  twitter: '',
   location: 'Gujarat, India',
   availability: 'Open to Internships & Opportunities',
-  avatar: '/Profile.jpg',
+  avatar: '/Profile.png',
 };
 
 export const aboutData = {
@@ -73,7 +72,6 @@ export const skillsData = [
       { name: 'Java', level: 85 },
       { name: 'JavaScript', level: 80 },
       { name: 'Python', level: 80 },
-      { name: 'PHP', level: 75 },
       { name: 'SQL', level: 75 },
     ],
   },
@@ -111,6 +109,8 @@ export const skillsData = [
       { name: 'Pandas', level: 85 },
       { name: 'Matplotlib & Seaborn', level: 80 },
       { name: 'Scikit-Learn', level: 80 },
+      { name: 'Regression', level: 85 },
+      { name: 'Classification', level: 85 },
     ],
   },
 
@@ -118,11 +118,12 @@ export const skillsData = [
     category: 'Tools & Platforms',
     icon: Cloud,
     skills: [
-      { name: 'Git & GitHub', level: 90 },
       { name: 'VS Code', level: 90 },
+      { name: 'Git & GitHub', level: 90 },
       { name: 'Postman', level: 85 },
       { name: 'Juypter Notebook', level: 85 },
       { name: 'Google Colab', level: 85 },
+      { name: 'Kaggle', level: 90 },
     ],
   },
 
@@ -142,9 +143,28 @@ export const skillsData = [
 export const projectsData = [
   {
     id: 1,
+    title: 'HealthSense AI',
+    description:
+      'Full-stack health platform to track daily vitals, get ML-based diabetes risk prediction with per-user explainability, personalized fitness & meal plans, and one-click PDF health reports.',
+    image: '/projects/healthsense-ai.webp',
+    techStack: [
+      'React.js',
+      'Node.js',
+      'Express.js',
+      'FastAPI',
+      'Scikit-Learn',
+      'MongoDB',
+    ],
+    github: 'https://github.com/Saurav-Pandit2005/HealthSense-AI',
+    live: 'https://health-sense-ai-x.vercel.app',
+    featured: true,
+  },
+
+  {
+    id: 2,
     title: 'The Blog Hub',
     description:
-      'A modern blogging platform built using the MERN Stack. Features secure user authentication & authorization, dynamic blog post management, categorisation, global search, a responsive user interface, and an admin dashboard.',
+      'AI-powered MERN blogging platform with role-based access control, author workspace, admin dashboard, premium resources, Cloudinary media uploads, and Gemini/Groq content generation.',
     image:
       'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80',
     techStack: [
@@ -152,17 +172,19 @@ export const projectsData = [
       'Express.js',
       'React.js',
       'Node.js',
+      'Gemini & Groq AI',
+      'Cloudinary',
     ],
-    github: 'https://github.com/Saurav-Pandit2005/The-Blog-Hub',
-    live: '#',
+    github: 'https://github.com/Saurav-Pandit2005/The_Blog_Hub',
+    live: 'https://the-blog-hub-h6-xi.vercel.app',
     featured: true,
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'House Price Predictor',
     description:
-      'Machine Learning application that predicts house prices using trained regression models. Includes data preprocessing, feature engineering, model evaluation, and an interactive frontend built using Streamlit.',
+      'Machine Learning app that predicts house prices using a trained regression model. Includes data preprocessing, feature engineering, and an interactive Streamlit interface.',
     image:
       'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80',
     techStack: [
@@ -172,7 +194,7 @@ export const projectsData = [
       'Scikit-Learn',
       'Streamlit',
     ],
-    github: 'https://github.com/Saurav-Pandit2005/House-Price-Predictor',
+    github: 'https://github.com/Saurav-Pandit2005/ML-Projects/tree/main/House-Price-App',
     live: 'https://house-price-predictor-saurav.streamlit.app/',
     featured: true,
   },

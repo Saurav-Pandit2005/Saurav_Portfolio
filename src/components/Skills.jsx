@@ -9,23 +9,29 @@ const Skills = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const tabsRef = useRef(null);
+  // Live visibility (not once) so auto-scroll runs ONLY while this section is on screen
+  const isSectionVisible = useInView(sectionRef, { amount: 0.3 });
 
-  // Auto-scroll through tabs every 3 seconds
+  // Auto-scroll through tabs every 3 seconds (only in this section, only while visible)
   useEffect(() => {
-    if (isPaused) return;
+    if (isPaused || !isSectionVisible) return;
     const interval = setInterval(() => {
       setActiveTab((prev) => (prev + 1) % skillsData.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, [isPaused]);
+  }, [isPaused, isSectionVisible]);
 
-  // Scroll active tab button into view when auto-cycling
+  // Keep the active tab centred inside the tab strip only.
+  // (scrollIntoView could also scroll the whole page, so we scroll the strip itself.)
   useEffect(() => {
-    if (!tabsRef.current) return;
-    const activeBtn = tabsRef.current.querySelector('[aria-selected="true"]');
-    if (activeBtn) {
-      activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
-    }
+    const container = tabsRef.current;
+    if (!container) return;
+    const activeBtn = container.querySelector('[aria-selected="true"]');
+    if (!activeBtn) return;
+    const c = container.getBoundingClientRect();
+    const b = activeBtn.getBoundingClientRect();
+    const left = container.scrollLeft + (b.left - c.left) - (c.width - b.width) / 2;
+    container.scrollTo({ left, behavior: 'smooth' });
   }, [activeTab]);
 
   const containerVariants = {
