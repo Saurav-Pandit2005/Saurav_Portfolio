@@ -12,6 +12,7 @@ export const navLinks = [
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
   { id: 'contact', label: 'Contact' },
+  { id: 'certifications', label: 'Certifications' },
 ];
 
 export const personalInfo = {
@@ -36,7 +37,7 @@ export const aboutData = {
   stats: [
     { label: 'DSA Problems', value: '180+', link: 'https://leetcode.com/u/spandit2005/' },
     { label: 'Projects Built', value: '3+', link: 'https://github.com/Saurav-Pandit2005' },
-    { label: 'Certifications', value: '10+', link: 'https://github.com/Saurav-Pandit2005/Certifications' },
+    { label: 'Certifications', value: '15+', link: 'https://github.com/Saurav-Pandit2005/Certifications' },
     { label: 'CGPA', value: '8.58' },
   ],
 

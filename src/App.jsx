@@ -11,6 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const About = lazy(() => import('./components/About'));
 const Skills = lazy(() => import('./components/Skills'));
 const Projects = lazy(() => import('./components/Projects'));
+const Certifications = lazy(() => import('./components/Certifications'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 
@@ -45,6 +46,7 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Certifications />
           <Contact />
         </Suspense>
       </main>
