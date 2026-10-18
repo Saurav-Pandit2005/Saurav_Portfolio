@@ -1,142 +1,148 @@
-import {
-  Globe,
-  Server,
-  Cloud,
-  Terminal,
-  Layers,
-} from 'lucide-react';
+import { Globe, Server, Cloud, Terminal, Layers } from "lucide-react";
 
 export const navLinks = [
-  { id: 'home', label: 'Home' },
-  { id: 'about', label: 'About' },
-  { id: 'skills', label: 'Skills' },
-  { id: 'projects', label: 'Projects' },
-  { id: 'contact', label: 'Contact' },
-  { id: 'certifications', label: 'Certifications' },
+  { id: "home", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "skills", label: "Skills" },
+  { id: "projects", label: "Projects" },
+  { id: "certifications", label: "Certifications" },
+  { id: "contact", label: "Contact" },
 ];
 
 export const personalInfo = {
-  name: 'Saurav Pandit',
-  role: 'Full Stack Web Developer | AI & ML Enthusiast',
-  tagline: 'Building scalable web applications and practical AI/ML solutions',
+  name: "Saurav Pandit",
+  role: "Full Stack Web Developer | AI & ML Enthusiast",
+  tagline: "Building scalable web applications and practical AI/ML solutions",
   bio: "I'm a Computer Engineering student passionate about Full Stack Web Development, Artificial Intelligence, and Machine Learning. I enjoy building scalable web applications, solving Data Structures & Algorithms problems, and exploring technologies that create real-world impact.",
-  email: 'sauravpandit9691@gmail.com',
-  github: 'https://github.com/Saurav-Pandit2005',
-  linkedin: 'https://www.linkedin.com/in/saurav2005',
-  location: 'Gujarat, India',
-  availability: 'Open to Internships & Opportunities',
-  avatar: '/Profile.png',
+  email: "sauravpandit9691@gmail.com",
+  github: "https://github.com/Saurav-Pandit2005",
+  linkedin: "https://www.linkedin.com/in/saurav2005",
+  location: "Gujarat, India",
+  availability: "Open to Internships & Opportunities",
+  avatar: "/Profile.png",
 };
 
 export const aboutData = {
   description: [
     "I'm a Computer Engineering student passionate about Full Stack Web Development, Artificial Intelligence, and Machine Learning.",
-    "Currently focused on improving my MERN Stack Development, strengthening my Problem Solving with Java, and building practical AI & ML Projects."
+    "Currently focused on improving my MERN Stack Development, strengthening my Problem Solving with Java, and building practical AI & ML Projects.",
   ],
 
   stats: [
-    { label: 'DSA Problems', value: '180+', link: 'https://leetcode.com/u/spandit2005/' },
-    { label: 'Projects Built', value: '3+', link: 'https://github.com/Saurav-Pandit2005' },
-    { label: 'Certifications', value: '15+', link: 'https://github.com/Saurav-Pandit2005/Certifications' },
-    { label: 'CGPA', value: '8.58' },
+    {
+      label: "DSA Problems",
+      value: "180+",
+      link: "https://leetcode.com/u/spandit2005/",
+    },
+    {
+      label: "Projects Built",
+      value: "3+",
+      link: "https://github.com/Saurav-Pandit2005",
+    },
+    {
+      label: "Certifications",
+      value: "15+",
+      link: "https://github.com/Saurav-Pandit2005/Certifications",
+    },
+    { label: "CGPA", value: "8.58" },
   ],
 
   timeline: [
     {
-      year: '2024 - Present',
-      title: 'Computer Engineering Student',
-      company: 'RK University — 8.58 (CGPA)',
+      year: "2024 - Present",
+      title: "Computer Engineering Student",
+      company: "RK University — 8.58 (CGPA)",
     },
     {
-      year: '2023 - 2024',
-      title: 'Electrical Engineering Student',
-      company: 'Gujarat Technological University (GTU) — 8.26 (CGPA)',
+      year: "2023 - 2024",
+      title: "Electrical Engineering Student",
+      company: "Gujarat Technological University (GTU) — 8.26 (CGPA)",
     },
     {
-      year: '2022 - 2023',
-      title: 'Class XII (HSC)',
-      company: 'GSEB — 61.2%',
+      year: "2022 - 2023",
+      title: "Class XII (HSC)",
+      company: "GSEB — 61.2%",
     },
     {
-      year: '2020 - 2021',
-      title: 'Class X (SSC)',
-      company: 'GSEB — 84.8%',
+      year: "2020 - 2021",
+      title: "Class X (SSC)",
+      company: "GSEB — 84.8%",
     },
   ],
 };
 
 export const skillsData = [
   {
-    category: 'Programming Languages',
+    category: "Programming Languages",
     icon: Terminal,
     skills: [
-      { name: 'Java', level: 85 },
-      { name: 'JavaScript', level: 80 },
-      { name: 'Python', level: 80 },
-      { name: 'SQL', level: 75 },
+      { name: "Java", level: 85 },
+      { name: "JavaScript", level: 80 },
+      { name: "Python", level: 80 },
+      { name: "SQL", level: 75 },
     ],
   },
 
   {
-    category: 'Frontend Development',
+    category: "Frontend Development",
     icon: Globe,
     skills: [
-      { name: 'React', level: 80 },
-      { name: 'HTML5', level: 90 },
-      { name: 'CSS3', level: 85 },
-      { name: 'Bootstrap', level: 85 },
-      { name: 'TailwindCSS', level: 80 },
+      { name: "React", level: 80 },
+      { name: "HTML5", level: 90 },
+      { name: "CSS3", level: 85 },
+      { name: "Bootstrap", level: 85 },
+      { name: "TailwindCSS", level: 80 },
     ],
   },
 
   {
-    category: 'Backend & Databases',
+    category: "Backend & Databases",
     icon: Server,
     skills: [
-      { name: 'Node.js', level: 85 },
-      { name: 'Express.js', level: 85 },
-      { name: 'MongoDB', level: 80 },
-      { name: 'MySQL', level: 75 },
-      { name: 'PostgreSQL', level: 70 },
+      { name: "Node.js", level: 85 },
+      { name: "Express.js", level: 85 },
+      { name: "MongoDB", level: 80 },
+      { name: "MySQL", level: 75 },
+      { name: "PostgreSQL", level: 70 },
     ],
   },
 
   {
-    category: 'AI & Machine Learning',
+    category: "AI & Machine Learning",
     icon: Layers,
     skills: [
-      { name: 'Python', level: 80 },
-      { name: 'NumPy', level: 85 },
-      { name: 'Pandas', level: 85 },
-      { name: 'Matplotlib & Seaborn', level: 80 },
-      { name: 'Scikit-Learn', level: 80 },
-      { name: 'Regression', level: 85 },
-      { name: 'Classification', level: 85 },
+      { name: "Python", level: 80 },
+      { name: "NumPy", level: 85 },
+      { name: "Pandas", level: 85 },
+      { name: "Matplotlib & Seaborn", level: 80 },
+      { name: "Scikit-Learn", level: 80 },
+      { name: "Regression", level: 85 },
+      { name: "Classification", level: 85 },
     ],
   },
 
   {
-    category: 'Tools & Platforms',
+    category: "Tools & Platforms",
     icon: Cloud,
     skills: [
-      { name: 'VS Code', level: 90 },
-      { name: 'Git & GitHub', level: 90 },
-      { name: 'Postman', level: 85 },
-      { name: 'Juypter Notebook', level: 85 },
-      { name: 'Google Colab', level: 85 },
-      { name: 'Kaggle', level: 90 },
+      { name: "VS Code", level: 90 },
+      { name: "Git & GitHub", level: 90 },
+      { name: "Postman", level: 85 },
+      { name: "Juypter Notebook", level: 85 },
+      { name: "Google Colab", level: 85 },
+      { name: "Kaggle", level: 90 },
     ],
   },
 
   {
-    category: 'CS Fundamentals',
+    category: "CS Fundamentals",
     icon: Cloud,
     skills: [
-      { name: 'DSA', level: 85 },
-      { name: 'OOP', level: 90 },
-      { name: 'DBMS', level: 85 },
-      { name: 'OS', level: 80 },
-      { name: 'CN', level: 75 },
+      { name: "DSA", level: 85 },
+      { name: "OOP", level: 90 },
+      { name: "DBMS", level: 85 },
+      { name: "OS", level: 80 },
+      { name: "CN", level: 75 },
     ],
   },
 ];
@@ -144,84 +150,85 @@ export const skillsData = [
 export const projectsData = [
   {
     id: 1,
-    title: 'HealthSense AI',
+    title: "HealthSense AI",
     description:
-      'Full-stack health platform to track daily vitals, get ML-based diabetes risk prediction with per-user explainability, personalized fitness & meal plans, and one-click PDF health reports.',
-    image: '/projects/healthsense-ai.webp',
+      "Full-stack health platform to track daily vitals, get ML-based diabetes risk prediction with per-user explainability, personalized fitness & meal plans, and one-click PDF health reports.",
+    image: "/projects/healthsense-ai.webp",
     techStack: [
-      'React.js',
-      'Node.js',
-      'Express.js',
-      'FastAPI',
-      'Scikit-Learn',
-      'MongoDB',
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "Scikit-Learn",
+      "MongoDB",
     ],
-    github: 'https://github.com/Saurav-Pandit2005/HealthSense-AI',
-    live: 'https://health-sense-ai-x.vercel.app',
+    github: "https://github.com/Saurav-Pandit2005/HealthSense-AI",
+    live: "https://health-sense-ai-x.vercel.app",
     featured: true,
   },
 
   {
     id: 2,
-    title: 'The Blog Hub',
+    title: "The Blog Hub",
     description:
-      'AI-powered MERN blogging platform with role-based access control, author workspace, admin dashboard, premium resources, Cloudinary media uploads, and Gemini/Groq content generation.',
+      "AI-powered MERN blogging platform with role-based access control, author workspace, admin dashboard, premium resources, Cloudinary media uploads, and Gemini/Groq content generation.",
     image:
-      'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80',
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
     techStack: [
-      'MongoDB',
-      'Express.js',
-      'React.js',
-      'Node.js',
-      'Gemini & Groq AI',
-      'Cloudinary',
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Gemini & Groq AI",
+      "Cloudinary",
     ],
-    github: 'https://github.com/Saurav-Pandit2005/The_Blog_Hub',
-    live: 'https://the-blog-hub-h6-xi.vercel.app',
+    github: "https://github.com/Saurav-Pandit2005/The_Blog_Hub",
+    live: "https://the-blog-hub-h6-xi.vercel.app",
     featured: true,
   },
 
   {
     id: 3,
-    title: 'House Price Predictor',
+    title: "House Price Predictor",
     description:
-      'Machine Learning app that predicts house prices using a trained regression model. Includes data preprocessing, feature engineering, and an interactive Streamlit interface.',
+      "Machine Learning app that predicts house prices using a trained regression model. Includes data preprocessing, feature engineering, and an interactive Streamlit interface.",
     image:
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80',
-    techStack: [
-      'Python',
-      'Pandas',
-      'NumPy',
-      'Scikit-Learn',
-      'Streamlit',
-    ],
-    github: 'https://github.com/Saurav-Pandit2005/ML-Projects/tree/main/House-Price-App',
-    live: 'https://house-price-predictor-saurav.streamlit.app/',
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+    techStack: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Streamlit"],
+    github:
+      "https://github.com/Saurav-Pandit2005/ML-Projects/tree/main/House-Price-App",
+    live: "https://house-price-predictor-saurav.streamlit.app/",
     featured: true,
   },
 ];
 
 export const socialLinks = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/Saurav-Pandit2005',
-    icon: 'github',
+    name: "GitHub",
+    url: "https://github.com/Saurav-Pandit2005",
+    icon: "github",
   },
 
   {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/saurav2005',
-    icon: 'linkedin',
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/saurav2005",
+    icon: "linkedin",
   },
 
   {
-    name: 'Email',
-    url: 'mailto:sauravpandit9691@gmail.com',
-    icon: 'mail',
+    name: "LeetCode",
+    url: "https://leetcode.com/u/spandit2005/",
+    icon: "leetcode",
+  },
+
+  {
+    name: "Email",
+    url: "mailto:sauravpandit9691@gmail.com",
+    icon: "mail",
   },
   {
-    name: 'Instagram',
-    url: 'https://instagram.com/srv__2.0',
-    icon: 'instagram',
+    name: "Instagram",
+    url: "https://instagram.com/srv__2.0",
+    icon: "instagram",
   },
 ];

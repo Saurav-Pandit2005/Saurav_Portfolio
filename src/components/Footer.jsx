@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Github, Linkedin, Twitter, Mail, Instagram, MapPin, Clock, Download, ArrowRight } from 'lucide-react';
 import { personalInfo, socialLinks, navLinks } from '../data/portfolioData';
+import LeetCodeIcon from './LeetCodeIcon';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -26,6 +27,7 @@ const Footer = () => {
       twitter: Twitter,
       mail: Mail,
       instagram: Instagram,
+      leetcode: LeetCodeIcon,
     };
     return icons[iconName] || Mail;
   };
@@ -46,9 +48,9 @@ const Footer = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-12">
+        <div className="grid grid-cols-2 lg:grid-cols-12 gap-x-6 gap-y-12 lg:gap-8 mb-12">
           {/* Brand */}
-          <div className="space-y-4 lg:col-span-4 lg:pr-8">
+          <div className="space-y-4 col-span-2 lg:col-span-4 lg:pr-8">
             <a
               href="#home"
               onClick={(e) => handleNavClick(e, 'home')}
@@ -59,6 +61,22 @@ const Footer = () => {
             <p className="text-textSecondary text-base leading-relaxed">
               {personalInfo.role} passionate about creating impactful digital experiences. Building scalable solutions for tomorrow.
             </p>
+            <div className="flex flex-wrap items-center gap-3 pt-2">
+              <a
+                href="#contact"
+                onClick={(e) => handleNavClick(e, 'contact')}
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-accent to-secondary text-background text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity shadow-lg shadow-accent/20"
+              >
+                Get In Touch <ArrowRight size={16} />
+              </a>
+              <a
+                href="/Resume.pdf"
+                download="Saurav_Pandit_Resume.pdf"
+                className="inline-flex items-center gap-2 px-5 py-2.5 glass rounded-xl text-sm font-medium text-textPrimary hover:text-accent hover:border-accent/40 transition-colors"
+              >
+                <Download size={16} /> Resume
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -112,7 +130,7 @@ const Footer = () => {
           </div>
 
           {/* Status */}
-          <div className="lg:col-span-3">
+          <div className="col-span-2 lg:col-span-3">
             <h3 className="text-lg font-semibold mb-6 tracking-wide">Status</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3 text-textSecondary text-sm">
@@ -127,6 +145,18 @@ const Footer = () => {
                 <div>
                   <p className="font-medium text-textPrimary">Local Time</p>
                   <p>{formattedTime} (IST)</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3 text-textSecondary text-sm">
+                <Mail size={18} className="text-accent shrink-0 mt-0.5" />
+                <div className="min-w-0">
+                  <p className="font-medium text-textPrimary">Email</p>
+                  <a
+                    href={`mailto:${personalInfo.email}`}
+                    className="break-all hover:text-accent transition-colors"
+                  >
+                    {personalInfo.email}
+                  </a>
                 </div>
               </div>
               <div className="pt-2">

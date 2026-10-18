@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ArrowDown, Github, Linkedin, Mail, Instagram, Download } from 'lucide-react';
+import LeetCodeIcon from './LeetCodeIcon';
 import { personalInfo } from '../data/portfolioData';
 
 const Hero = () => {
@@ -202,6 +203,7 @@ const Hero = () => {
             {[
               { icon: Github, href: personalInfo.github, label: 'GitHub' },
               { icon: Linkedin, href: personalInfo.linkedin, label: 'LinkedIn' },
+              { icon: LeetCodeIcon, href: 'https://leetcode.com/u/spandit2005/', label: 'LeetCode' },
               { icon: Mail, href: `mailto:${personalInfo.email}`, label: 'Email' },
               { icon: Instagram, href: 'https://instagram.com/srv__2.0', label: 'Instagram' },
             ].map(({ icon: Icon, href, label }) => (
