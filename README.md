@@ -78,9 +78,7 @@ The application will be running at `http://localhost:5173`.
 
 Feel free to reach out if you want to collaborate on a project or just say hi!
 
-- **Email:** [sauravpandit9691@gmail.com](mailto:sauravpandit9691@gmail.com)
 - **LinkedIn:** [Saurav Pandit](https://www.linkedin.com/in/saurav-pandit)
 - **GitHub:** [@Saurav-Pandit2005](https://github.com/Saurav-Pandit2005)
-- **Instagram:** [@srv__2.0](https://instagram.com/srv__2.0)
 
 ---
