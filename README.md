@@ -2,7 +2,9 @@
 
 > A sleek, responsive, and highly interactive developer portfolio built with React, Vite, and Tailwind CSS. Showcasing my journey in Full-Stack Web Development, Data Structures & Algorithms, and modern web aesthetics.
 >
-> 🔗 **Live Demo:** [https://saurav-portfolio-eosin.vercel.app](https://saurav-portfolio-eosin.vercel.app)
+> <a href="https://saurav-portfolio-eosin.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-Saurav%20Pandit-3B82F6?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 
 ---
 
