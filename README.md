@@ -78,9 +78,12 @@ The application will be running at `http://localhost:5173`.
 
 ## Let's Connect
 
-Feel free to reach out if you want to collaborate on a project or just say hi!
+<a href="https://www.linkedin.com/in/saurav2005">
+  <img src="https://img.shields.io/badge/LinkedIn-Saurav_Pandit-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
-- **LinkedIn:** [Saurav Pandit](https://www.linkedin.com/in/saurav-pandit)
-- **GitHub:** [@Saurav-Pandit2005](https://github.com/Saurav-Pandit2005)
+<a href="https://github.com/Saurav-Pandit2005">
+  <img src="https://img.shields.io/badge/GitHub-Saurav--Pandit2005-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 
 ---
